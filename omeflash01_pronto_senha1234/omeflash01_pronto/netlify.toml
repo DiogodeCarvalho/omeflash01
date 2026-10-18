@@ -1,0 +1,22 @@
+# Configuração do Netlify para o Vortex Stream
+
+[build]
+  publish = "dist"
+  command = "npm run build"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Redirecionamento SPA para que rotas como /planos e /admin funcionem sem 404 ao recarregar
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Se você hospedar o backend Node.js no Render, Railway ou VPS, 
+# você pode descomentar as linhas abaixo para que o Netlify faça o proxy de /api/* diretamente:
+# [[redirects]]
+#   from = "/api/*"
+#   to = "https://seu-backend.onrender.com/api/:splat"
+#   status = 200
+#   force = true

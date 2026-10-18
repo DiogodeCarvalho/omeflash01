@@ -1,0 +1,6 @@
+{
+  "name": "Vortex Stream - Plataforma de Vídeos",
+  "description": "Estrutura inicial de plataforma de streaming de vídeos com catálogo público e painel administrativo seguro.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
