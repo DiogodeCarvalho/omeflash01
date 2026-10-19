@@ -1,6 +1,0 @@
-{
-  "name": "OmeFlash",
-  "description": "Plataforma de streaming de vídeos e conexões espontâneas OmeFlash.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
