@@ -1,3 +1,0 @@
-# Netlify redirects file
-# Redireciona todas as rotas do frontend SPA (como /admin, /planos) para index.html
-/*    /index.html   200
