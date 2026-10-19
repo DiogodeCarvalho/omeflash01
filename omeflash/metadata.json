@@ -1,0 +1,6 @@
+{
+  "name": "OmeFlash",
+  "description": "Plataforma de vídeos por assinatura OmeFlash com catálogo exclusivo, integração Stripe e painel administrativo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
